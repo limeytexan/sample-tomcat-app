@@ -17,14 +17,10 @@
         "pkg-path": "tomcat-native"
       }
     },
-    "vars": {
-      "CATALINA_HOME": "$FLOX_ENV"
-    },
-    "hook": {},
     "options": {},
     "build": {
       "sample-tomcat-app": {
-        "command": "  make install PREFIX=$out\n",
+        "command": "make install PREFIX=$out",
         "sandbox": "pure",
         "version": "5.5",
         "description": "Sample tomcat app copied from https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/"
