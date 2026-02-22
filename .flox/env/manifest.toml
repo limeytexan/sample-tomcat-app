@@ -10,6 +10,6 @@ tomcat-native.pkg-path = "tomcat-native"
 
 [build.sample-tomcat-app]
 description = "Sample tomcat app copied from https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/"
-version = "5.5"
+version = "5.5.1"
 sandbox = "pure"
 command = "make install PREFIX=$out"
